@@ -1,6 +1,6 @@
 module github.com/apigee/apigee-remote-service-envoy/v2
 
-go 1.16
+go 1.24
 
 // replace github.com/apigee/apigee-remote-service-golib/v2 => ../apigee-remote-service-golib
 
@@ -18,7 +18,7 @@ require (
 	github.com/spf13/cobra v1.1.3
 	go.uber.org/multierr v1.6.0 // indirect
 	go.uber.org/zap v1.16.0
-	golang.org/x/oauth2 v0.0.0-20210514164344-f6687ab2804c
+	golang.org/x/oauth2 0.27.0
 	google.golang.org/appengine v1.6.7 // indirect
 	google.golang.org/genproto v0.0.0-20210315173758-2651cd453018
 	google.golang.org/grpc v1.36.0
